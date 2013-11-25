@@ -1,5 +1,8 @@
 # wpm-registry
 
+ATTENTION: WIP, dont us this, it won't work
+
+
 Web Package Manager Registry - Javascript / CSS & Web Component Registry
 
 This is a package manager for js, css and web components based on a certain rule set so they can be automatically loaded, compiled and processed. Its like npmjs for the web, but unlike bower it has a stricter rules on how components must be published. This makes it suitable for creating sets of packages which are compatible with each other so that we can create great applications with far less effort!
