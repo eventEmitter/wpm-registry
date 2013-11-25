@@ -1,0 +1,38 @@
+
+	// dont forget to check the public flag!
+
+	module.exports = {
+		webserver: {
+			  port: 12001
+			, interfaces: []
+		}
+		, filesystem: {
+			  type: 's3'
+			, secret: ''
+			, key: ''
+			, bucket: ''
+		}
+		, database: {
+		      dialect	: 'postgres'
+			, host 		: '10.0.100.1'
+			, user 		: 'postgres'
+			, database 	: 'wpm'
+			, charset 	: 'utf8'
+			, password 	: ''
+			, port 		: undefined
+			, models	: './schema'
+		}
+		, registries: [
+			{
+				  host: ''
+				, token: ''
+				, port: 0
+			}
+			, {
+				  host: ''
+				, port: 0
+				, replicate: true
+			}
+		]
+		, public: true
+	};

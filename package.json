@@ -22,10 +22,10 @@
         , "ee-types"                : "*"
         , "ee-log"                  : "*"
         , "ee-project"              : "*"
-        , "bookshelf"               : "0.5.7"
-        , "knex"                    : "0.4.13"
-        , "pg"                      : "2.8.3"
+        , "ee-bookshelf-schema"     : "*"
+        , "em-rest-service"         : "*"
         , "ee-error"                : "*"
+        , "ee-webservice"           : "*"
     }
     , "devDependencies": {}
     , "optionalDependencies": {}

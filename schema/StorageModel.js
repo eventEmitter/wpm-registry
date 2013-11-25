@@ -2,17 +2,18 @@
 
 	var   Class 		= require('ee-class')
 		, log 			= require('ee-log')
-		, BaseModel 	= require('../BaseModel');
+		, BaseModel 	= require('ee-bookshelf-schema').BaseModel;
 
 
 
 	module.exports = new Class({ 
 		inherits: BaseModel
 
-		, name: 'collectionPermission'
+		, name: 'storage'
 
-		, collection: {
-			belongsTo: 'id_collection'
+
+		, file: {
+			hasMany: 'id_file'
 		}
 	});
 }();
