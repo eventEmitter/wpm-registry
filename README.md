@@ -1,5 +1,7 @@
 # wpm-registry
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/wpm-registry.svg)](https://greenkeeper.io/)
+
 ATTENTION: WIP, dont us this, it won't work
 
 
